@@ -6,6 +6,58 @@
 월요일까지 숙제!
 로고만들기
 
-500 * 700
+가로 500px 세로 300px 
 
 배경 없게 만들기
+
+
+
+#picture {
+  width: 350px;
+  margin: 30px auto;
+  border: 1px solid #999;
+}
+
+
+#picture img {
+  border: 1px solid #666;
+}
+
+#picture #photo {
+  text-align: center;
+}
+
+#picture ul {
+  width: 800px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  /* height: 120px; */
+}
+
+#picture ul li {
+  width: 100px;
+  float: left;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#picture div#photo_list {
+  width: 300px;
+  margin: 10px auto;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  /* 앞에 3개의 사진만 보이게됨 */
+}
+
+#picture .btn_wrap {
+  clear: both;
+  text-align: center;
+}
+
+#picture .btn_wrap a {
+  font-weight: border;
+  font-size: 25px;
+}
+
+
+
